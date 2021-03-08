@@ -4,56 +4,107 @@
 }
 
 body{
-	background-color: rgb(46, 32, 32);
-	color: rgb(148, 135, 135);
+	/* background-color: rgb(46, 32, 32); useable color in the future */
+	color: white; /* default font color */
+	background-color: black;
 }
 
 main{
-	background-color: rgb(238, 233, 224);
+	background-color: rgb(27, 26, 26);
 	text-align: center;
 	margin: 2px 20%;
 	border-style: outset;
 	border-width: 3px;
-	border-color: beige;
+	border-color: black;
 	border-radius: 3%;
+	}
+
+header{
+	margin-left: 4%;
 }
 
-h1{
+h1 {
 	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
-	font-size: 40px;
+	font-size: 70px;
+	color: white;
+	text-align: left;
+	margin-bottom: 1px;
 }
 
-h2{
+h2, h3{
 	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 30px;
 	margin: 2px;
 }
 
-section p{
-	color: rgb(53, 46, 35);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 10px;
+h3{ /* Same as H2, just smaller font. */
+	font-size: 26px;
 }
 
-section hr{
-	width: 20%;
-	border-color: rgb(95, 53, 53);
-	border-style: ridge;
-	border-width: 1px;
+/* section p, ul{
+	color: rgb(190, 190, 190);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	margin: 4%;
+} */
+
+section p, ul{
+	color: rgb(190, 190, 190);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	text-align: left;
+	margin: 4%;
 }
 
 nav {
-	font-family: Verdana, Tahoma, sans-serif;
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
 	font-size: 12px;
 	text-align: center;
-	background-color: black;
-	color: rgb(50, 163, 163);
+	margin: 1px 20%;
+	background-color: rgb(15, 15, 15);
+	color: rgb(48, 48, 48);
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(58, 51, 43);
+	border-radius: 5px;
 }
 
 hr{
 	width: 80%;
-	border-color: black;
+	border-color: rgb(41, 41, 41);
+	border-width: 1px;
+	border-style: solid;
+}
 
+section hr{
+	width: 20%;
+}
+
+a:link{
+	color: rgb(75, 95, 95);
+}
+
+a:visited{
+	color: rgb(84, 105, 105);
+}
+
+a:hover{
+	color: rgb(97, 53, 0);
+}
+
+a:active{
+	color: rgb(243, 101, 0);
+}
+
+
+footer{
+	text-align: center;
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	color: white;
 }
