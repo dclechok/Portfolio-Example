@@ -28,7 +28,7 @@ header{
 h1 {
 	/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 	font-family:unset;
-	font-size: 70px;
+	font-size: 85px;
 	color: white;
 	text-align: left;
 	margin-bottom: 1px;
@@ -39,7 +39,7 @@ h2, h3{
 	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
 	color: white;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 40px;
 	margin: 2px;
 }
 
@@ -47,7 +47,7 @@ h2{
 	color: rgb(151, 111, 58);
 }
 h3{ /* Same as H2, just smaller font. */
-	font-size: 26px;
+	font-size: 30px;
 }
 
 /*
@@ -65,7 +65,7 @@ h3{ /* Same as H2, just smaller font. */
 section p, ul, ol{
 	color: rgb(230, 230, 230);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	text-align: left;
 	margin: 4%;
 }
